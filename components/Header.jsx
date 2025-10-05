@@ -2,7 +2,7 @@ export const Header = () => {
   return (
     <header className="h-12 w-full bg-black/40 border-white flex justify-between">
       <div>
-        <h1 className="text-white p-3">Logo</h1>
+        <h1 className="text-white p-3 text-xl">EIIO</h1>
       </div>
       <div>
         <ul className="m-2">

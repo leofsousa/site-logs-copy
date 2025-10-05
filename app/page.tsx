@@ -4,10 +4,29 @@ export default function Home() {
   return (
     <main>
       <div
-        className="bg-cover bg-center h-screen w-full"
+        className="bg-cover bg-repeat bg-center h-screen w-full"
         style={{ backgroundImage: `url(${florestImage.src})` }}
       >
         <Header />
+        <div className="max-w-xl m-16">
+          <h3 className="text-white text-bold text-7xl mb-16">
+            From Data to Delivery - Smarter, Greener, Faster
+          </h3>
+          <p className="text-gray-200 font-light">
+            We Help Companies build smarter infrastructure, optimize operatios
+            and transition to low-emission technologies - with measurable impact
+          </p>
+          <button className="bg-primary mt-8 py-1 px-2 rounded-md">
+            Start Your Transformation
+          </button>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <p className="text-white my-16"> [EllO] </p>
+          <p className="text-white">
+            We help industries evolve through smarter systems and low-impact
+            technologies - eficient, data driven, and built to scale
+          </p>
+        </div>
       </div>
       <div></div>
     </main>
