@@ -1,9 +1,10 @@
-import Image from 'next/image';
-
 export default function Home() {
   return (
     <main>
-      <div className=""></div>
+      <div className="bg-[url('/florest.jpg')] bg-cover bg-center h-screen w-full">
+      </div>
+      <div>
+      </div>
     </main>
   );
 }
