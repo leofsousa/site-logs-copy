@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <div
-        className="bg-cover bg-fixed bg-center h-full w-screen"
+        className="bg-cover bg-fixed bg-center min-h-screen w-full"
         style={{ backgroundImage: `url(${florestImage.src})` }}
       >
         <Header />
