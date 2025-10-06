@@ -1,11 +1,13 @@
 import florestImage from "../florest.jpg";
 import { Header } from "../components/Header";
+import { Carousel } from "../components/Carousel";
+
 import { Button } from "@/components/Button";
 export default function Home() {
   return (
     <main>
       <div
-        className="bg-cover bg-fixed bg-center h-full w-full"
+        className="bg-cover bg-fixed bg-center h-full w-screen"
         style={{ backgroundImage: `url(${florestImage.src})` }}
       >
         <Header />
@@ -25,6 +27,7 @@ export default function Home() {
             We help industries evolve through smarter systems and low-impact
             technologies - eficient, data driven, and built to scale
           </p>
+          <Carousel />
         </div>
       </div>
       <div></div>
