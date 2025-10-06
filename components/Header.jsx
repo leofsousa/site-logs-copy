@@ -1,6 +1,7 @@
+import {Button} from "../components/Button";
 export const Header = () => {
   return (
-    <header className="h-12 w-full bg-black/40 border-white flex justify-between">
+    <header className="h-1 w-full bg-black/40 border-white flex justify-between">
       <div>
         <h1 className="text-white p-3 text-xl">EIIO</h1>
       </div>
@@ -29,9 +30,7 @@ export const Header = () => {
         </ul>
       </div>
       <div>
-        <button className="bg-primary mx-4 my-2 py-1 px-2 rounded-md">
-          Start Project
-        </button>
+        <Button title="Start Your Project"/>
       </div>
     </header>
   );

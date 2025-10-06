@@ -1,10 +1,11 @@
 import florestImage from "../florest.jpg";
 import { Header } from "../components/Header";
+import { Button } from "@/components/Button";
 export default function Home() {
   return (
     <main>
       <div
-        className="bg-cover bg-repeat bg-center h-screen w-full"
+        className="bg-cover bg-fixed bg-center h-full w-full"
         style={{ backgroundImage: `url(${florestImage.src})` }}
       >
         <Header />
@@ -12,17 +13,15 @@ export default function Home() {
           <h3 className="text-white text-bold text-7xl mb-16">
             From Data to Delivery - Smarter, Greener, Faster
           </h3>
-          <p className="text-gray-200 font-light">
+          <p className="text-gray-200 font-light mb-20">
             We Help Companies build smarter infrastructure, optimize operatios
             and transition to low-emission technologies - with measurable impact
           </p>
-          <button className="bg-primary mt-8 py-1 px-2 rounded-md">
-            Start Your Transformation
-          </button>
+          <Button title="Start Your Transformation"/>
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <p className="text-white my-16"> [EllO] </p>
-          <p className="text-white">
+        <div className="flex flex-col justify-center items-center mt-20">
+          <p className="text-gray-300 my-16 text-md"> [EllO] </p>
+          <p className="text-white text-4xl p-6 mx-32 text-center">
             We help industries evolve through smarter systems and low-impact
             technologies - eficient, data driven, and built to scale
           </p>
