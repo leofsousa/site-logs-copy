@@ -27,7 +27,7 @@ export default function Home() {
             We help industries evolve through smarter systems and low-impact
             technologies - eficient, data driven, and built to scale
           </p>
-          <p>[Helping 100+ leadin companies get better results ]</p>
+          <p className="text-white mt-14">[Helping 100+ leadin companies get better results ]</p>
           <Carousel />
         </div>
       </div>
