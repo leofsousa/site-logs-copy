@@ -35,10 +35,10 @@ export default function Home() {
           <Carousel />
         </div>
       </div>
-      <div className="h-full flex justify-around m-12">
+      <div className="h-full flex justify-around my-12">
         <div className="flex flex-col items-start">
           <p className="text-light text-gray">[ Aplied Efficiency ]</p>
-          <h3 className="text-4xl mt-10 mb-24 max-w-sm">
+          <h3 className="text-4xl mt-10 mb-8 max-w-sm">
             Smarter operations, Real Time Impact
           </h3>
           <Button title="Explore How Ello Works" />
