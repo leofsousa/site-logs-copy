@@ -1,4 +1,6 @@
 import florestImage from "../florest.jpg";
+import lampImage from "../lampada.jpg";
+import entregador from "../entregador.jpg";
 import { Header } from "../components/Header";
 import { Carousel } from "../components/Carousel";
 
@@ -19,7 +21,7 @@ export default function Home() {
             We Help Companies build smarter infrastructure, optimize operatios
             and transition to low-emission technologies - with measurable impact
           </p>
-          <Button title="Start Your Transformation"/>
+          <Button title="Start Your Transformation" />
         </div>
         <div className="flex flex-col justify-center items-center mt-20">
           <p className="text-gray-300 my-16 text-md"> [EllO] </p>
@@ -27,11 +29,47 @@ export default function Home() {
             We help industries evolve through smarter systems and low-impact
             technologies - eficient, data driven, and built to scale
           </p>
-          <p className="text-white mt-14">[Helping 100+ leadin companies get better results ]</p>
+          <p className="text-white mt-14">
+            [Helping 100+ leadin companies get better results ]
+          </p>
           <Carousel />
         </div>
       </div>
-      <div></div>
+      <div className="h-full flex justify-around m-12">
+        <div className="flex flex-col items-start">
+          <p className="text-light text-gray">[ Aplied Efficiency ]</p>
+          <h3 className="text-4xl mt-10 mb-24 max-w-sm">
+            Smarter operations, Real Time Impact
+          </h3>
+          <Button title="Explore How Ello Works" />
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <div
+            className="h-40 bg-cover rounded-2xl bg-no-repeat w-full col-span-2"
+            style={{ backgroundImage: `url(${lampImage.src})` }}
+          ></div>
+          <div className="h-28 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
+            <span className="text-sm text-light text-gray">Service</span>
+            <h3 className="text-xl text-bold text-wrap">Solar Potential</h3>
+          </div>
+          <div className="h-28 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
+            <span className="text-sm text-light text-gray">Service</span>
+            <h3 className="text-xl text-bold text-wrap">
+              Logistics Frameworks
+            </h3>
+          </div>
+          <div className="h-28 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
+            <span className="text-sm text-light text-gray">Service</span>
+            <h3 className="text-xl text-bold text-wrap">
+              Acelerated Fulfilment
+            </h3>
+          </div>
+          <div
+            className="h-28 bg-primary rounded-2xl w-full bg-cover bg-center"
+            style={{ backgroundImage: `url(${entregador.src})` }}
+          ></div>
+        </div>
+      </div>
     </main>
   );
 }
