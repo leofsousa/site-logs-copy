@@ -48,24 +48,24 @@ export default function Home() {
             className="h-40 bg-cover rounded-2xl bg-no-repeat w-full col-span-2"
             style={{ backgroundImage: `url(${lampImage.src})` }}
           ></div>
-          <div className="h-28 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
+          <div className="h-40 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
             <span className="text-sm text-light text-gray">Service</span>
             <h3 className="text-xl text-bold text-wrap">Solar Potential</h3>
           </div>
-          <div className="h-28 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
+          <div className="h-40 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
             <span className="text-sm text-light text-gray">Service</span>
             <h3 className="text-xl text-bold text-wrap">
               Logistics Frameworks
             </h3>
           </div>
-          <div className="h-28 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
+          <div className="h-40 bg-primary rounded-2xl w-full p-4 flex flex-col justify-between">
             <span className="text-sm text-light text-gray">Service</span>
             <h3 className="text-xl text-bold text-wrap">
               Acelerated Fulfilment
             </h3>
           </div>
           <div
-            className="h-28 bg-primary rounded-2xl w-full bg-cover bg-center"
+            className="h-40 bg-primary rounded-2xl w-full bg-cover bg-center"
             style={{ backgroundImage: `url(${entregador.src})` }}
           ></div>
         </div>
